@@ -19,7 +19,7 @@
 
 # Cara Menjalankan Project
 
-### Untuk Mengenkripsi File
+## Untuk Mengenkripsi File
 Gunakan perintah berikut untuk mengenkripsi file. Ganti `path/to/your/file.txt` dengan path file yang ingin kamu enkripsi dan `yourPassword` dengan password yang kamu pilih.
 
 ```bash
@@ -30,7 +30,7 @@ npx ts-node src/index.ts encrypt ./test.txt myPassword
 File 'test.txt' berhasil dienkripsi menjadi 'test_encrypted.txt'
 ```
 
-### Untuk Mendekripsi File
+## Untuk Mendekripsi File
 path/to/your/encrypted_file.txt dengan path file terenkripsi yang ingin kamu dekripsi dan yourPassword dengan password yang digunakan saat enkripsi.
 
 ```bash
@@ -46,7 +46,7 @@ File 'test_encrypted.txt' berhasil didekripsi menjadi 'test.txt'
 ```bash
 Error: Password yang dimasukkan salah
 ```
-### Jika File Tidak Ditemukan
+## Jika File Tidak Ditemukan
 ```bash
 Error: ENOENT: no such file or directory, open 'C:\path\to\file.txt'
 ```
