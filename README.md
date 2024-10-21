@@ -25,7 +25,7 @@ Gunakan perintah berikut untuk mengenkripsi file. Ganti `path/to/your/file.txt` 
 ```bash
 npx ts-node src/index.ts encrypt ./test.txt myPassword
 ```
-###Output
+### Output
 ```bash
 File 'test.txt' berhasil dienkripsi menjadi 'test_encrypted.txt'
 ```
@@ -36,7 +36,7 @@ path/to/your/encrypted_file.txt dengan path file terenkripsi yang ingin kamu dek
 ```bash
 npx ts-node src/index.ts decrypt ./test_encrypted.txt myPassword
 ```
-###Output
+### Output
 ```bash
 File 'test_encrypted.txt' berhasil didekripsi menjadi 'test.txt'
 
